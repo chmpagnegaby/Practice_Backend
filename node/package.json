@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",  
+    "start": "node main.js",
     "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "pg-promise": "^11.10.2",
     "prompt-sync": "^4.2.0",
